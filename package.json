@@ -1,0 +1,16 @@
+{
+  "name": "node-katas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "magnusKata": "jest magnusKata/*",
+    "sample": "jest sample/*"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^24.9.0"
+  }
+}

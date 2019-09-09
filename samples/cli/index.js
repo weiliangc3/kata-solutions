@@ -10,7 +10,7 @@ const ask = async () => {
 async function main() {
   const input = await ask();
 
-  console.log(`you input ${input.askParameter}`)
+  console.log(`you input ${input.askParameter}`);
 }
 
 main();

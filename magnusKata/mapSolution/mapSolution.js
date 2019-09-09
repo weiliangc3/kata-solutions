@@ -3,7 +3,7 @@ const magnusKata = (books) => {
 
   books.map((book) => {
     const firstCollectionWithoutBook = bookCollections.find(
-      collection => !collection.includes(book)
+      collection => !collection.includes(book),
     );
 
     if (!firstCollectionWithoutBook) {

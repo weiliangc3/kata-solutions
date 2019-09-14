@@ -7,6 +7,7 @@
     "test": "jest",
     "magnusKata": "jest magnusKata/*",
     "samples": "jest samples/*",
+    "executioner": "jest executioner/*",
     "sampleCli": "node samples/cli"
   },
   "author": "",

@@ -38,5 +38,3 @@ def get_line_length_from_array(line):
     for word in line:
         line_length += len(word)
     return line_length
-
-print(justify_text("hello wei you got this right yes", 12))

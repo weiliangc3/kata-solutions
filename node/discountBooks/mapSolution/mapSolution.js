@@ -1,4 +1,4 @@
-const magnusKata = (books) => {
+const discountBooks = (books) => {
   const bookCollections = [];
 
   books.map((book) => {
@@ -41,5 +41,5 @@ const magnusKata = (books) => {
 };
 
 module.exports = {
-  magnusKata,
+  discountBooks,
 };

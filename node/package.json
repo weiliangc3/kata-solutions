@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "magnusKata": "jest magnusKata/*",
+    "discountBooks": "jest discountBooks/*",
     "samples": "jest samples/*",
     "executioner": "jest executioner/*",
     "sampleCli": "node samples/cli"

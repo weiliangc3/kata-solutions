@@ -1,2 +1,4 @@
-node_modules/
-package-lock.json
+node/node_modules/
+node/package-lock.json
+python/**/__pycache__
+python/**/.pytest_cache

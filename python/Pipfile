@@ -1,0 +1,18 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[scripts]
+text_justification_test = "pytest text_justification/text_justification_test.py"
+text_justification_test_watch = "pytest-watch text_justification/text_justification_test.py"
+text_justification = "python text_justification/text_justification.py"
+
+[dev-packages]
+
+[packages]
+pytest = "*"
+pytest-watch = "*"
+
+[requires]
+python_version = "3.7"

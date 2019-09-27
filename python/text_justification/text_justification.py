@@ -39,11 +39,6 @@ def add_stack_to_text(word_stack, base_text):
         base_text += word
     return base_text
 
-def add_single_space_to_words(word_stack):
-    for word in word_stack:
-        word += " "
-    return word_stack
-
 def get_line_length_from_array(line):
     line_length = 0
     for word in line:

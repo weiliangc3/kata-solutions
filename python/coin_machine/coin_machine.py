@@ -65,6 +65,9 @@ def get_change(amount, coins = default_coins):
             if isinstance(coin["limit"], int):
                 coin["limit"] -=1
 
+    if remaining_amount > 0:
+        return "Not enough coins"
+
     return stringify_coins(coins)
 
 def stringify_coins(coins):

@@ -145,3 +145,29 @@ def test_can_take_multiple_coin_limit():
 
     result = get_change("£10.42", coins)
     assert result == "1 £2, 1 £1, 4 50p, 27 20p, 1 2p"
+
+def test_returns_error_when_not_enough_coins():
+    coins = [
+        {
+            "name": "20p",
+            "count": 0,
+            "value": 20,
+            "limit": 1
+        }
+    ]
+
+    result = get_change("£0.42", coins)
+    assert result == "Not enough coins"
+
+def test_returns_error_when_not_enough_correct_coins():
+    coins = [
+        {
+            "name": "£2",
+            "count": 0,
+            "value": 200,
+            "limit": 1
+        }
+    ]
+
+    result = get_change("£1.42", coins)
+    assert result == "Not enough coins"
